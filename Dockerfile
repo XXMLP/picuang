@@ -12,7 +12,7 @@ ADD picuang-0.0.1-SNAPSHOT.war /picuang.war
 MAINTAINER xxmlp
 
 #EXPOSE 项目暴露的端口号
-EXPOSE 8080
+EXPOSE 8081
 
 #/picuang.jar此处的名称要和ADD命令后面的一样。
-ENTRYPOINT ["java","-jar","/picuang.jar"]
+ENTRYPOINT ["java","-jar","/picuang.war"]
