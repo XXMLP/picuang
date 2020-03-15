@@ -1,10 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b87d8c55-1834-406c-9684-18f017a5d2d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/adlered/picuang/prop/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/adlered/picuang/prop/Prop.java" afterDir="false" />
+    <list default="true" id="b87d8c55-1834-406c-9684-18f017a5d2d4" name="Default Changelist" comment=":star: 基于IP地址的重复克隆检测限制">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic_deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/PicuangApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/access/HttpOrHttpsAccess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/access/MyX509TrustManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/controller/admin/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/controller/admin/api/AdminAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/controller/admin/api/ConfigAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/controller/api/History.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/controller/api/bean/PicProp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/log/Logger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/prop/Prop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/tool/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/tool/IPUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/tool/ToolBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/tool/double_keys/main/DoubleKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/picuang/tool/double_keys/storage/DoubleKeysStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/simplecurrentlimiter/cache/MainCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/simplecurrentlimiter/cache/pair/CachePair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/simplecurrentlimiter/control/MainControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pers/adlered/simplecurrentlimiter/main/SimpleCurrentLimiter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap/cover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/admin/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/admin/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/d-toast.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/fantastic-progress-bar-bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/history/histories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/transition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/user/click-listen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/user/clipboard-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/user/common-queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/user/drag-and-drop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/user/notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/user/on-paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/uploadImages/192/168/137/130/2020/03/15/05/01/d07098b8-1ffc-4153-b8bd-81924796a93e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/PicuangApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/access/HttpOrHttpsAccess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/access/MyX509TrustManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/controller/admin/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/controller/admin/api/AdminAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/controller/admin/api/ConfigAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/controller/api/History.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/controller/api/bean/PicProp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/log/Logger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/prop/Prop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/tool/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/tool/IPUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/tool/ToolBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/tool/double_keys/main/DoubleKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/picuang/tool/double_keys/storage/DoubleKeysStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/simplecurrentlimiter/cache/MainCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/simplecurrentlimiter/cache/pair/CachePair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/simplecurrentlimiter/control/MainControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/pers/adlered/simplecurrentlimiter/main/SimpleCurrentLimiter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/css/bootstrap/cover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/admin/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/admin/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/d-toast.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/fantastic-progress-bar-bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/history/histories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/transition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/user/click-listen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/user/clipboard-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/user/common-queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/user/drag-and-drop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/user/notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/user/on-paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/static/uploadImages/192/168/137/130/2020/03/15/05/01/d07098b8-1ffc-4153-b8bd-81924796a93e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/HikariCP-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/apache-el-8.5.40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/asm-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/asm-analysis-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/asm-commons-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/asm-tree-7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.17.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/javax-websocket-client-impl-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/javax-websocket-server-impl-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/javax.websocket-api-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-annotations-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-client-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-continuation-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-http-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-io-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-plus-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-security-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-server-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-servlet-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-servlets-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-util-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-webapp-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jetty-xml-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jetty-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-thymeleaf-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-java8time-3.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/websocket-api-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/websocket-client-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/websocket-common-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/websocket-server-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/lib/websocket-servlet-9.4.19.v20190610.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-03-15T18-45-24_972-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pers.adlered.picuang.picuang.PicuangApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/pers.adlered.picuang.picuang.PicuangApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pers/adlered/picuang/picuang/PicuangApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,6 +349,11 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -143,7 +365,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -161,22 +383,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\picuang" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/js" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/java/pers/adlered" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.PicuangApplication">
     <configuration name="DoubleKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -248,6 +459,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -280,6 +503,7 @@
       <workItem from="1574610069335" duration="707000" />
       <workItem from="1574668154306" duration="668000" />
       <workItem from="1574904798453" duration="7969000" />
+      <workItem from="1584267723286" duration="1494000" />
     </task>
     <task id="LOCAL-00014" summary=":star: V2.0版本正式发布！">
       <created>1573050875707</created>
@@ -688,6 +912,44 @@
     <MESSAGE value=":star: 出错时删除建立的文件，以防止无效图片过多产生" />
     <MESSAGE value=":star: 基于IP地址的重复克隆检测限制" />
     <option name="LAST_COMMIT_MESSAGE" value=":star: 基于IP地址的重复克隆检测限制" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="336" y="10" key="CommitChangelistDialog2" timestamp="1584269110117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="336" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584269110117" />
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1584269324383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584269324383" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1584269324383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584269324383" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1584269324383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584269324383" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1584269324383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584269324383" />
+    <state width="1493" height="158" key="GridCell.Tab.1.bottom" timestamp="1584269324383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="158" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584269324383" />
+    <state width="1493" height="158" key="GridCell.Tab.1.center" timestamp="1584269324383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="158" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584269324383" />
+    <state width="1493" height="158" key="GridCell.Tab.1.left" timestamp="1584269324383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="158" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584269324383" />
+    <state width="1493" height="158" key="GridCell.Tab.1.right" timestamp="1584269324383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="158" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584269324383" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

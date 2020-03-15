@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>🛏Picuang - 永久免费 | 免登录图床</title>
+    <link rel="icon" href="/favicon.png">
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap/cover.css" rel="stylesheet">
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body>
+<script>
+    $(function () {
+        $(".site-wrapper").fadeIn(1000);
+    });
+</script>
+<div class="site-wrapper" style="display: none">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <a href="/"><h3 class="masthead-brand">必床 Picuang</h3></a>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li><a href="/">上传</a></li>
+                            <li class="active"><a href="/history">历史</a></li>
+                            <li><a href="/admin">管理</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="inner cover">
+                <div style="margin-top: 36px">找到<span id="picCount">0</span>条记录</div>
+                <div id="histories" style="margin-top: 8px"></div>
+            </div>
+
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>
+                        <a href="https://github.com/AdlerED/Picuang" target="_blank">Picuang <span
+                                th:text="${version}"></span></a>
+                        <br>
+                        <script type="text/javascript" src="https://js.users.51.la/20181641.js"></script>
+                        <br>
+                        <a href="http://beian.miit.gov.cn" style="text-decoration: none;"
+                           target="_blank">京ICP备18063791号</a>
+                        <br>
+                        <a href="https://github.com/AdlerED" style="text-decoration: none;" target="_blank"><strong>GitHub:
+                            AdlerED</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/axios.min.js"></script>
+<script src="/js/history/histories.js"></script>
+</body>
+</html>
