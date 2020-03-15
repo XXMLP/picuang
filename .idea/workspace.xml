@@ -283,14 +283,7 @@
       <workItem from="1574610069335" duration="707000" />
       <workItem from="1574668154306" duration="668000" />
       <workItem from="1574904798453" duration="7969000" />
-      <workItem from="1584267723286" duration="1912000" />
-    </task>
-    <task id="LOCAL-00015" summary="修改报错信息">
-      <created>1573092719783</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1573092719783</updated>
+      <workItem from="1584267723286" duration="2311000" />
     </task>
     <task id="LOCAL-00016" summary="增加Notification浏览器通知功能">
       <created>1573094009477</created>
@@ -628,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584269447006</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="修改镜像文件">
+      <created>1584270035094</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1584270035094</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,7 +666,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="修复历史记录时间线划分问题" />
     <MESSAGE value="仅管理员上传按钮" />
     <MESSAGE value="仅管理员上传功能完成" />
     <MESSAGE value="配置导入提示" />
@@ -691,13 +690,14 @@
     <MESSAGE value=":star: 出错时删除建立的文件，以防止无效图片过多产生" />
     <MESSAGE value=":star: 基于IP地址的重复克隆检测限制" />
     <MESSAGE value="修改tomcat配置，端口号，添加镜像文件，部署脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改tomcat配置，端口号，添加镜像文件，部署脚本" />
+    <MESSAGE value="修改镜像文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改镜像文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="336" y="10" key="CommitChangelistDialog2" timestamp="1584269443370">
+    <state x="336" y="10" key="CommitChangelistDialog2" timestamp="1584270031439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="336" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584269443370" />
+    <state x="336" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584270031439" />
     <state x="147" y="70" key="DiffContextDialog" timestamp="1584269376663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
