@@ -32,7 +32,7 @@
     rm -f Dockerfile
     rm -f picuang-0.0.1-SNAPSHOT.war
 
-    mv $DOCKER_DIR/picuang/target/picuang-0.0.1-SNAPSHOT.jar .
+    mv $DOCKER_DIR/picuang/target/picuang-0.0.1-SNAPSHOT.war .
     mv $DOCKER_DIR/picuang/Dockerfile .
 
     #删除旧的镜像和容器
