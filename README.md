@@ -1,6 +1,6 @@
 # Picuang
 
-:pushpin: 本地图床，使用SpringBoot开发，面向用户的网络图床服务。https://pic.stackoverflow.wiki
+:pushpin: 本地图床，使用SpringBoot开发，面向用户的网络图床服务。http://pic.xxmlp.top
 
 :wrench: 如果你遇到任何问题，都可以通过我个人签名中的联系方式与我沟通！
 
