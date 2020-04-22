@@ -6,6 +6,17 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/history.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/picuang-0.0.1-SNAPSHOT/WEB-INF/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pers.adlered.picuang.picuang.PicuangApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pers.adlered.picuang.picuang.PicuangApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pers.adlered.picuang.picuang.PicuangApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pers.adlered.picuang.picuang.PicuangApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,14 +306,16 @@
       <workItem from="1584409725616" duration="9651000" />
       <workItem from="1584442695739" duration="1552000" />
       <workItem from="1584497523233" duration="15000" />
-      <workItem from="1584515878464" duration="1975000" />
-    </task>
-    <task id="LOCAL-00021" summary="JS增加BMP/ICO/TIFF Content-Type">
-      <created>1573103672287</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1573103672287</updated>
+      <workItem from="1584515878464" duration="2046000" />
+      <workItem from="1584520396786" duration="16000" />
+      <workItem from="1585026654454" duration="161000" />
+      <workItem from="1586241164545" duration="2075000" />
+      <workItem from="1586337568509" duration="611000" />
+      <workItem from="1586340441370" duration="2932000" />
+      <workItem from="1586396086118" duration="9834000" />
+      <workItem from="1586486726323" duration="2296000" />
+      <workItem from="1587350265995" duration="177000" />
+      <workItem from="1587524022643" duration="625000" />
     </task>
     <task id="LOCAL-00022" summary="Class增加BMP/ICO/TIFF Content-Type">
       <created>1573103737313</created>
@@ -640,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584518548202</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="修改页面的信息">
+      <created>1584518700938</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1584518700938</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,54 +730,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="385" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1584351419319" />
-    <state x="336" y="10" key="CommitChangelistDialog2" timestamp="1584518647314">
+    <state x="336" y="10" key="CommitChangelistDialog2" timestamp="1584518699597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="336" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584518647314" />
+    <state x="336" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584518699597" />
     <state x="147" y="70" key="DiffContextDialog" timestamp="1584342788994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="70" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1584342788994" />
-    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1584518650533">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1587524610771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584518650533" />
-    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1584518650533">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587524610771" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1587524610771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584518650533" />
-    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1584518650532">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587524610771" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1587524610770">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584518650532" />
-    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1584518650533">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587524610770" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1587524610771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584518650533" />
-    <state width="1493" height="174" key="GridCell.Tab.1.bottom" timestamp="1584518650533">
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587524610771" />
+    <state width="1493" height="256" key="GridCell.Tab.1.bottom" timestamp="1587524610771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584518650533" />
-    <state width="1493" height="174" key="GridCell.Tab.1.center" timestamp="1584518650533">
+    <state width="1493" height="256" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587524610771" />
+    <state width="1493" height="256" key="GridCell.Tab.1.center" timestamp="1587524610771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584518650533" />
-    <state width="1493" height="174" key="GridCell.Tab.1.left" timestamp="1584518650533">
+    <state width="1493" height="256" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587524610771" />
+    <state width="1493" height="256" key="GridCell.Tab.1.left" timestamp="1587524610771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584518650533" />
-    <state width="1493" height="174" key="GridCell.Tab.1.right" timestamp="1584518650533">
+    <state width="1493" height="256" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587524610771" />
+    <state width="1493" height="256" key="GridCell.Tab.1.right" timestamp="1587524610771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584518650533" />
+    <state width="1493" height="256" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587524610771" />
     <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1584338677303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584338677303" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1584497525588">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586396086722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584497525588" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586396086722" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586413929848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586413929848" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
